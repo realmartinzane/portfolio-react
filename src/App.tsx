@@ -1,6 +1,7 @@
 import { FC } from 'react'
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import { Home, Projects } from 'pages'
+import 'styles/index.css';
 
 export const App: FC = () => (
   <Router>

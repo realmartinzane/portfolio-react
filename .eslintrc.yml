@@ -50,10 +50,3 @@ settings:
       extensions:
         - '.ts'
         - '.tsx'
-      map:
-        - - '@/constants'
-          - './src/constants/index.ts'
-        - - '@/hooks'
-          - './src/hooks/index.ts'
-        - - '@/utils'
-          - './src/utils/index.ts'

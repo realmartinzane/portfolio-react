@@ -65,7 +65,7 @@ export const useStyles = createUseStyles({
       {
         ...base,
         opacity: isOpen && '0',
-        transform: isOpen && 'translateX(-15px)',
+        transform: isOpen && 'translateX(-24px)',
       },
       {
         ...base,
@@ -92,6 +92,7 @@ export const useStyles = createUseStyles({
     backgroundColor: COLOR_PRIMARY,
     transform: isOpen ? 'translateY(0)' : 'translateY(-100%)',
     transition: 'transform 300ms ease-out',
+    padding: '0 16px',
   }),
 
   navigationLinksContainer: ({ isOpen }) => ({

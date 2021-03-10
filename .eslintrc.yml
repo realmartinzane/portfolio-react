@@ -17,13 +17,15 @@ extends:
   - airbnb-base
   - eslint:recommended
   - prettier
+  - plugin:react/recommended
+  - plugin:@typescript-eslint/recommended
 
 plugins:
   - react
   - prettier
-  - '@typescript-eslint'
   - import-order-autofix
   - react-hooks
+  - '@typescript-eslint'
 
 rules:
   react/jsx-uses-vars: error

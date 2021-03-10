@@ -7,11 +7,26 @@
 *::before {
   margin: 0;
   padding: 0;
-  box-sizing: inherit;
 }
 
-body {
-  box-sizing: border-box;
+/*
+  Scroll bar
+*/
+
+::-webkit-scrollbar-track {
+  border-radius: 12px;
+  background-color: #171a1d;
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: #171a1d;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  background-color: #97bfd3;
 }
 
 /*

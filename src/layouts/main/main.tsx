@@ -1,15 +1,12 @@
 import { FC } from 'react'
-import { Header, Footer } from 'components'
-import { useStyles } from './styles'
+import { Header, Footer, Contact } from 'components'
 
-export const MainLayout: FC = ({ children }) => {
-  const classes = useStyles({})
+export const MainLayout: FC = ({ children }) => (
+  <div>
+    <Header />
+    {children}
 
-  return (
-    <div className={classes.mainLayout}>
-      <Header />
-      <div className={classes.mainLayoutContent}>{children}</div>
-      <Footer />
-    </div>
-  )
-}
+    <Contact />
+    <Footer />
+  </div>
+)

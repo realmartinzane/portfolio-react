@@ -14,10 +14,14 @@ import {
 
 export const useStyles = createUseStyles({
   header: {
+    position: 'absolute',
+    top: '0',
+    left: '0',
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
     padding: '12px 20px',
+    width: 'calc(100% - 40px)',
     height: '60px',
     backgroundColor: COLOR_SECONDARY,
   },

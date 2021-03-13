@@ -16,5 +16,6 @@ export const COLOR_GRAY = '#565f69'
 export const COLOR_LINKEDIN = '#0077b5'
 export const COLOR_GITHUB = '#333000'
 export const COLOR_EMAIL = '#6FC2B0'
+export const COLOR_RESUME = '#565f69'
 
 export const COLOR_SCROLL = '#97bfd3'
